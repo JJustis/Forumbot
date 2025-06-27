@@ -57,7 +57,7 @@ class ProfessionalForumBot:
     def __init__(self):
         self.model_path = "./tinyllama-forum-professional"
         self.fallback_model = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-        self.max_length = 400
+        self.max_length = 800
         self.temperature = 0.8
         
         # Thread safety
